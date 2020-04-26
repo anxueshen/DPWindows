@@ -14,4 +14,6 @@ How to compile dp for windows
 
 1、First you need to add Gstream Path (C:\gstreamer\1.0\x86\bin) to windows environment Path variable.
 
-2、For debug dp in windows, you will also need [windbg tools](https://docs.microsoft.com/zh-cn/windows-hardware/drivers/debugger/debugger-download-tools).
+2、The dp must have version info for windows rc compiler. So you need first run the generate_version_config.sh(in rootpath/custom). You will generate version_config.sh file with version info.
+
+3、For debug dp in windows, you will also need [windbg tools](https://docs.microsoft.com/zh-cn/windows-hardware/drivers/debugger/debugger-download-tools).
